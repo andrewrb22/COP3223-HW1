@@ -1,8 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int New()
+int main()
 {
-    printf("Hello World!\n");
+    int x;
+
+    printf("Enter a number: ");
+
+    scanf("%d", &x);
+
+    printf("You're number times 2 is:  %d", 2*x);
+
     return 0;
 }
