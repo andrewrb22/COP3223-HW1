@@ -15,9 +15,12 @@
 
 int main()
 {
-    char myChar = '$'; 
-    printf ("%c   %d\n" , myChar , myChar);
+    float m;
+    float km;
+    printf("Enter your distance in Miles: ");
+    scanf("%f", &m);
+    km = 1.609 * m;
+    printf("Thank you! %f\n", m, "Miles =", km, "Kilometers"  );
+
     return 0;
 }
-
-
