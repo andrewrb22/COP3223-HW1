@@ -17,10 +17,14 @@ int main()
 {
     float m;
     float km;
+
     printf("Enter your distance in Miles: ");
+
     scanf("%f", &m);
-    km = 1.609 * m;
-    printf("Thank you! %f\n", m, "Miles =", km, "Kilometers"  );
+
+    km = 1.609 * m ;
+
+    printf("The distance you enter in Kilometer is: %.2f", km);
 
     return 0;
 }
